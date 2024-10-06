@@ -15,18 +15,18 @@
 # and how the local docker-compose.yml is configured.
 
 #services:
-  #nethermind:
+  nethermind:
     # Disable nethermind
-    #profiles: [disable]
+    profiles: [disable]
     # Bind nethermind internal ports to host ports
     #ports:
       #- 8545:8545 # JSON-RPC
       #- 8551:8551 # AUTH-RPC
       #- 8008:8008 # Metrics
 
-  #lighthouse:
+  lighthouse:
     # Disable lighthouse
-    #profiles: [disable]
+    profiles: [disable]
     # Bind lighthouse internal ports to host ports
     #ports:
       #- 5052:5052 # HTTP
@@ -57,9 +57,9 @@
     #ports:
       #- 9090:9090 # Metrics
 
-  #mev-boost:
+  mev-boost:
     # Disable mev-boost
-    #profiles: [disable]
+    profiles: [disable]
     # Bind mev-boost internal ports to host ports
     #ports:
       #- 18550:18550 # Metrics
